@@ -6,10 +6,10 @@ const { Console } = require("console");
 const app = express();
 const port = 5000;
 
-app.set("view engine");
+app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "src/views"));
 
-app.use(express.static("src/assets"));
+app.use(express.static("src/asset"));
 
 app.use(express.urlencoded({ extended: false }));
 
@@ -47,5 +47,5 @@ function testimonials(req, res) {
 }
 
 function contactme(req, res) {
-  res.render("https://wa.me/628994381685");
+  res.render("contact-me");
 }
