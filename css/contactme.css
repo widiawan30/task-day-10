@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbdbdb;
+  padding: 0 40px;
+}
+
+.nav-left ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-left img {
+  margin-right: 50px;
+  height: 80px;
+}
+
+.nav-left ul li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left a:hover {
+  color: blue;
+}
+
+.nav-right a {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+form {
+  font-weight: bold;
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+form div {
+  margin-top: 15px;
+}
+
+input,
+select,
+textarea {
+  background-color: #dfdfdf;
+  color: white;
+  width: 350px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  resize: none;
+}
+
+button {
+  float: right;
+  background-color: black;
+  padding: 7px 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 100px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.tekscenter {
+  position: absolute;
+  color: blue;
+}

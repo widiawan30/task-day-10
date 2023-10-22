@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbdbdb;
+  padding: 0 40px;
+}
+
+.nav-left ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-left img {
+  margin-right: 50px;
+  height: 80px;
+}
+
+.nav-left ul li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left a:hover {
+  color: blue;
+}
+
+.nav-right a {
+  background-color: black;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.img {
+  float: right;
+  width: 25%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.homepage {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  margin-top: 5%;
+  background-color: #dbdbdb;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.kontak {
+  text-decoration: none;
+}
+
+.kontak a {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.teks {
+  font-size: 18px;
+  padding-left: 1100px;
+  text-align: center;
+}
+
+.contact-icons {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  align-items: start;
+  margin-top: 8px;
+}
+
+.contact-icons img {
+  width: 50px; /* Lebar ikon */
+  height: 50px; /* Tinggi ikon */
+  vertical-align: text-top;
+}
+
+.contact-icons a {
+  display: inline-block; /* Agar ikon-ikon sejajar */
+  margin: 0 10px; /* Jarak antara ikon-ikon */
+  text-align: center;
+}
